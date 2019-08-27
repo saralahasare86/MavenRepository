@@ -7,6 +7,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.Test;
 
 public class DemoProg 
@@ -21,6 +22,8 @@ public class DemoProg
 	public static void A() throws InterruptedException
 	{
 
+//		ChromeOptions opt=new ChromeOptions();
+//		opt.setBinary(path)
 	
 		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -30,6 +33,6 @@ public class DemoProg
 		WebElement sbox = driver.findElement(By.xpath("//input[@class='gLFyf gsfi']"));
 		Thread.sleep(2000);
 		sbox.sendKeys("oneplus 7",Keys.ENTER);
-		
+		System.out.println("hi");
 	}
 }
