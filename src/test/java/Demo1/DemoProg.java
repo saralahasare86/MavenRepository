@@ -33,6 +33,6 @@ public class DemoProg
 		WebElement sbox = driver.findElement(By.xpath("//input[@class='gLFyf gsfi']"));
 		Thread.sleep(2000);
 		sbox.sendKeys("oneplus 7",Keys.ENTER);
-		System.out.println("hi");
+		System.out.println("hello");
 	}
 }
