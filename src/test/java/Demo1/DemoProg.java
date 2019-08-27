@@ -16,7 +16,7 @@ public class DemoProg
 
 	static
 	{
-	System.setProperty("webdriver.chrome.driver", "D:\\seleniumWS\\Assignment1\\driver\\chromedriver.exe");
+	System.setProperty("webdriver.gecko.driver", "D:\\seleniumWS\\Assignment1\\driver\\geckodriver.exe");
 	}
 
 	@Test
